@@ -90,7 +90,7 @@ export default function About() {
                   they are and celebrating every milestone.
                 </p>
                 <p>
-                  Fully bilingual in English and Spanish, Iris ensures that every child and family feels heard, 
+                  Bilingual in English and Spanish, Iris ensures that every child and family feels heard, 
                   understood, and supported — in the language they are most comfortable with.
                 </p>
               </div>

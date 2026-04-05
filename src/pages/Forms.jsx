@@ -3,8 +3,8 @@ import './Forms.css'
 const forms = [
   { id: 'intake-pediatric', title: 'Patient Intake Form', desc: 'For new patients. Includes the patient/guardian information.', file: '/forms/Pegasus-registration.pdf', tag: 'New Patient' },
   { id: 'hippo-consent', title: 'Hippotherapy Consent Form', desc: 'Required for all hippotherapy patients. Covers activity risks, safety protocols, and patient consent.', file: '/forms/releases-physician.pdf', tag: 'Hippotherapy' },
-  { id: 'hippo-intake', title: 'Hippotherapy Intake Form', desc: 'Detailed intake specific to hippotherapy sessions, including the child\'s physical considerations and any riding history.', file: '/forms/hippotherapy-intake.pdf', tag: 'Hippotherapy' },
-  { id: 'hipaa', title: 'HIPAA Privacy Notice & Authorization', desc: 'Acknowledgment of our privacy practices and authorization for release of medical information.', file: '/forms/hipaa-authorization.pdf', tag: 'Required' },
+  { id: 'hippo-intake', title: 'Medical Treatment Form', desc: 'Authorization for emergency medical treatment', file: '/forms/auth-for-med-treatment.pdf', tag: 'Hippotherapy' },
+  { id: 'hipaa', title: 'Other Forms', desc: '', file: '/forms/hipaa-authorization.pdf', tag: 'Required' },
 ]
 
 export default function Forms() {
