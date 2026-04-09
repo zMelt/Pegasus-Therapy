@@ -9,8 +9,8 @@ const credentials = [
 ]
 
 const timeline = [
-  { year: '1991', event: 'Associates of Applied Science in Physical Therapist Assisting — Laredo Community College' },
-  { year: '1999', event: 'Joined Cook Children\'s Medical Center as LPTA — began 25+ year tenure in pediatric care' },
+  { year: '1991', event: 'Associates of Applied Science in Physical Therapist Assisting — Beginning career as LPTA' },
+  { year: '1995', event: 'Started practicing hippotherapy as a LPTA — Began 25+ year tenure in pediatric care' },
   { year: '2015', event: 'Pursued and earned AHCB Certification in Hippotherapy and PATH Certified Therapeutic Riding Instructor credentials' },
   { year: 'Today', event: 'Founding Pegasus Therapy — bringing a lifetime of pediatric and hippotherapy expertise to private practice' },
 ]
@@ -93,6 +93,50 @@ export default function About() {
                   Bilingual in English and Spanish, Iris ensures that every child and family feels heard, 
                   understood, and supported — in the language they are most comfortable with.
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Michelle Hoemann (Supervising PT) Section ── */}
+      <section className="supervising-pt section-pad">
+        <div className="container">
+          <div className="supervising-pt__inner">
+            <div className="supervising-pt__header">
+              <p className="label">Supervising Physical Therapist</p>
+              <div className="divider-red" />
+              <h2 className="section-title">Clinical Oversight</h2>
+            </div>
+
+            <div className="supervising-pt__grid">
+              <div className="supervising-pt__image-wrapper">
+                <img 
+                  src="/Michelle.jpeg" 
+                  alt="Michelle Hoemann, PT - Supervising Physical Therapist" 
+                  width="240"
+                  height="360"
+                  className="supervising-pt__image"
+                />
+                <div className="supervising-pt__image-accent" />
+              </div>
+              <div className="supervising-pt__content">
+                <h3 className="supervising-pt__name">Michelle Hoemann, PT</h3>
+                <p className="supervising-pt__credentials">
+                  Doctor of Physical Therapy | Early Childhood Specialist
+                </p>
+                <div className="supervising-pt__bio">
+                  <p>
+                    Michelle is a Physical Therapist with over 20 years of experience. She works closely with 
+                    Iris to complete physical therapy evaluations and reassessments, carefully examining each 
+                    child's specific needs and progress throughout their therapy journey.
+                  </p>
+                  <p>
+                    Michelle earned her Doctorate in Physical Therapy from Rosalind Franklin University and 
+                    currently works in the Early Childhood Intervention (ECI) setting — bringing specialized 
+                    expertise in developmental milestones and early therapeutic intervention.
+                  </p>
+                </div>
               </div>
             </div>
           </div>

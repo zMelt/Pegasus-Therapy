@@ -1,10 +1,10 @@
 import './Forms.css'
 
 const forms = [
-  { id: 'intake-pediatric', title: 'Patient Intake Form', desc: 'For new patients. Includes the patient/guardian information.', file: '/forms/Pegasus-registration.pdf', tag: 'New Patient' },
-  { id: 'hippo-consent', title: 'Hippotherapy Consent Form', desc: 'Required for all hippotherapy patients. Covers activity risks, safety protocols, and patient consent.', file: '/forms/releases-physician.pdf', tag: 'Hippotherapy' },
-  { id: 'hippo-intake', title: 'Medical Treatment Form', desc: 'Authorization for emergency medical treatment', file: '/forms/auth-for-med-treatment.pdf', tag: 'Hippotherapy' },
-  { id: 'hipaa', title: 'Other Forms', desc: '', file: '/forms/hipaa-authorization.pdf', tag: 'Required' },
+  { id: 'intake-pediatric', title: 'Pegasus Registration Form', desc: 'For new patients. Includes the patient/guardian information.', file: '/forms/Pegasus-registration.pdf', tag: 'New Patient' },
+  { id: 'hippo-consent', title: 'Medical History and Consents Form', desc: 'Required for all hippotherapy patients. Covers history, safety protocols/risks, and patient consents.', file: '/forms/releases-physician.pdf', tag: 'Hippotherapy' },
+  { id: 'hippo-intake', title: 'Emergency Medical Treatment Form', desc: 'Authorization for Emergency Medical Treatment', file: '/forms/auth-for-med-treatment.pdf', tag: 'Hippotherapy' },
+  { id: 'hipaa', title: 'Rules and Regulations', desc: '', file: '/forms/hipaa-authorization.pdf', tag: 'Required' },
 ]
 
 export default function Forms() {

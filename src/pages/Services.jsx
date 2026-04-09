@@ -39,6 +39,12 @@ export default function Services() {
         <div className="container">
           <div className="services-intro__inner">
             <p>
+              First, an evaluation is performed by a physical therapist to establish goals, then each 
+              session will be 45 minutes total. The session will consist of mount and dismount, 30 minutes
+              on the horse, and 15 minutes of therapeutic excersises and/on gate training. This training is
+              designed to carry over into daily living.
+            </p>
+            <p>
               Pegasus Therapy is dedicated to utilizing the movement of the horse to improve function,
               independence, and quality of life in special needs children. Through hippotherapy and
               specialized pediatric physical therapy — Pegasus Therapys' aim is to empower children to 
@@ -53,7 +59,7 @@ export default function Services() {
         <div className="container">
           <div className="svc-section__grid">
             <div className="svc-section__intro">
-              <p className="label">Section 01</p>
+              <p className="label">Pegasus</p>
               <div className="divider-red" />
               <h2 className="section-title">Hippotherapy</h2>
               <p className="svc-section__lead">
@@ -127,14 +133,14 @@ export default function Services() {
                 delivered with clinical precision and genuine compassion.
               </p>
               <p className="svc-section__body">
-                With over 25 years at Cook Children's Medical Center and advanced NDT training,
-                Iris understands the unique challenges children and their families face. Every
+                With our staff having over 25 years of specialized pediatric experience and advanced NDT training,
+                Pegasus understands the unique challenges children and their families face. Every
                 treatment plan is built around each child's individual needs, goals, and abilities —
                 whether they are working toward their first steps, improved coordination, or greater
                 independence in daily tasks.
               </p>
               <p className="svc-section__body">
-                Iris's bilingual capabilities mean that Spanish-speaking families receive the same
+                Pegasus' bilingual capabilities mean that Spanish-speaking families receive the same
                 complete, clear communication as English-speaking families — from the initial
                 evaluation through every step of the treatment journey.
               </p>

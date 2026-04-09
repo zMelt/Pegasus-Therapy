@@ -4,10 +4,12 @@
 .page-hero__title { font-family: var(--font-display); font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 300; color: var(--white); margin: 16px 0 24px; }
 .page-hero__line { width: 64px; height: 3px; background: var(--red); }
 
+/* ── Bio (Iris) ── */
 .bio { background: var(--white); }
 .bio__grid { display: grid; grid-template-columns: 1fr 1.6fr; gap: 80px; align-items: start; }
 .bio__visual { position: sticky; top: 100px; }
 .bio__photo-frame { position: relative; margin-bottom: 32px; }
+.bio__photo { width: 100%; aspect-ratio: 3/4; object-fit: cover; display: block; }
 .bio__photo-placeholder { background: var(--off-white); border: 2px dashed rgba(0,0,0,0.12); aspect-ratio: 3/4; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; }
 .bio__initials { font-family: var(--font-display); font-size: 4rem; font-weight: 300; color: var(--red); }
 .bio__photo-note { font-family: var(--font-condensed); font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gray-light); }
@@ -16,8 +18,89 @@
 .bio__cred { display: flex; align-items: baseline; gap: 12px; padding: 12px 16px; background: var(--off-white); border-left: 3px solid var(--red); }
 .bio__cred-title { font-family: var(--font-condensed); font-size: 0.8rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--red); white-space: nowrap; min-width: 68px; }
 .bio__cred-desc { font-size: 0.85rem; color: var(--gray-dark); line-height: 1.4; }
+
+/* Location/mission intro paragraph above Iris bio */
+.bio__location-mission {
+  font-size: 1rem;
+  color: var(--gray-dark);
+  line-height: 1.85;
+  margin-bottom: 32px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid rgba(0,0,0,0.07);
+}
+
+/* Meet wrapper — label + dividers above Iris name */
+.bio__meet-wrapper { margin-bottom: 20px; }
+.bio__meet-wrapper .label { margin: 12px 0 4px; }
+
 .bio__body p { color: var(--gray-dark); line-height: 1.85; margin-bottom: 18px; }
 
+/* ── Michelle (Supervising PT) ── */
+.supervising-pt { background: var(--off-white); }
+
+.supervising-pt__inner { max-width: 900px; }
+
+.supervising-pt__header { margin-bottom: 40px; }
+
+.supervising-pt__grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 48px;
+  align-items: start;
+  background: var(--white);
+  padding: 40px;
+  border-left: 4px solid var(--red);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+}
+
+.supervising-pt__image-wrapper { position: relative; flex-shrink: 0; }
+
+.supervising-pt__image {
+  width: 160px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 4px;
+  display: block;
+}
+
+.supervising-pt__image-accent {
+  position: absolute;
+  bottom: -6px;
+  right: -6px;
+  width: 28px;
+  height: 28px;
+  background: var(--red);
+  border-radius: 50%;
+}
+
+.supervising-pt__name {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--black);
+}
+
+.supervising-pt__credentials {
+  font-family: var(--font-condensed);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: 20px;
+}
+
+.supervising-pt__bio p {
+  color: var(--gray-dark);
+  line-height: 1.85;
+  margin-bottom: 16px;
+}
+
+.supervising-pt__bio p:last-child { margin-bottom: 0; }
+
+/* ── Timeline ── */
 .timeline-section { background: var(--off-white); }
 .timeline { display: flex; flex-direction: column; position: relative; padding-left: 140px; }
 .timeline::before { content: ''; position: absolute; left: 120px; top: 10px; bottom: 10px; width: 1px; background: linear-gradient(to bottom, var(--red), rgba(196,18,48,0.1)); }
@@ -26,12 +109,14 @@
 .timeline__dot { position: absolute; left: -22px; top: 28px; width: 10px; height: 10px; background: var(--red); border-radius: 50%; flex-shrink: 0; }
 .timeline__event { font-size: 0.95rem; color: var(--gray-dark); line-height: 1.7; padding-top: 4px; }
 
+/* ── Mission quote ── */
 .philosophy { position: relative; background: var(--charcoal); padding: 100px 0; overflow: hidden; }
 .philosophy__bg { position: absolute; inset: 0; background: linear-gradient(135deg, rgba(196,18,48,0.12) 0%, transparent 60%); }
 .philosophy__content { position: relative; z-index: 1; max-width: 800px; }
 .philosophy__quote { font-family: var(--font-display); font-size: clamp(1.3rem, 2.5vw, 1.9rem); font-weight: 300; font-style: italic; color: var(--white); line-height: 1.6; margin: 24px 0 20px; border: none; padding: 0; }
 .philosophy__attr { font-family: var(--font-condensed); font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.4); }
 
+/* ── Responsive ── */
 @media (max-width: 900px) {
   .bio__grid { grid-template-columns: 1fr; gap: 48px; }
   .bio__visual { position: static; }
@@ -39,4 +124,7 @@
   .timeline::before { left: 60px; }
   .timeline__year { left: -80px; width: 60px; font-size: 1rem; }
   .timeline__dot { left: -23px; }
+  .supervising-pt__grid { grid-template-columns: 1fr; text-align: center; gap: 28px; }
+  .supervising-pt__image { margin: 0 auto; }
+  .supervising-pt__bio { text-align: left; }
 }

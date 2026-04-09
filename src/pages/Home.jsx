@@ -90,15 +90,12 @@ export default function Home() {
                 Dedicated to Enhancing<br />Your Well-Being
               </h2>
               <p>
-                Pegasus Therapy was founded by Iris Melton, LPTA — a Licensed Physical Therapist
-                Assistant with over 30 years of experience, including a long-standing career at
-                Cook Children's Medical Center.
-              </p>
-              <p>
+                Pegasus Therapy was founded by Iris Melton, LPTA, with over 30 years of experience.
                 Pegasus is committed to empowering children through hippotherapy — blending clinical
                 expertise with the movement of the horse to improve function, mobility, and
                 participation in everyday activities.
               </p>
+              
               <Link to="/about" className="btn-outline" style={{ marginTop: '28px' }}>
                 Learn More
               </Link>

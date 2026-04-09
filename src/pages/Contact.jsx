@@ -20,7 +20,7 @@ export default function Contact() {
     const body = encodeURIComponent(
       `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nService of Interest: ${service}\n\nMessage:\n${message}`
     )
-    window.location.href = `mailto:Pegasus.Therap@outlook.com?subject=${subject}&body=${body}`
+    window.location.href = `mailto:Pegasus.Therapy@outlook.com?subject=${subject}&body=${body}`
   }
 
   return (
