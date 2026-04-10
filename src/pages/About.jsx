@@ -77,8 +77,8 @@ export default function About() {
                 <p>
                   Iris Melton is a Licensed Physical Therapist Assistant with over 30 years of experience 
                   dedicated to improving the lives of children with special needs. She earned her Associate 
-                  of Applied Science in Physical Therapist Assisting from Laredo Community College in 1991 
-                  and has served patients at Cook Children's Medical Center since 1999 — building extraordinary 
+                  of Applied Science in Physical Therapist Assisting in 1991, started practicing Hippotherapy in 1995, 
+                  and has specialized in pediatric patients since 1999 — building extraordinary 
                   clinical expertise working with children and families.
                 </p>
                 <p>
