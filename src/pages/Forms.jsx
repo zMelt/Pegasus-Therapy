@@ -55,7 +55,7 @@ export default function Forms() {
             <p className="label">Available Downloads</p>
             <div className="divider-red" />
             <h2 className="section-title">Patient Forms</h2>
-            <p className="forms-list__note">Forms will be available for download here. In the meantime, please contact us and we'll send the appropriate forms to you directly.</p>
+            <p className="forms-list__note">Forms are available for download here. Please contact us with any other inquires and we'll get back to you promptly.</p>
           </div>
           <div className="forms-cards">
             {forms.map(({ id, title, desc, file, tag }) => (

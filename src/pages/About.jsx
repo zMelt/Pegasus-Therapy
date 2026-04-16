@@ -9,7 +9,7 @@ const credentials = [
 ]
 
 const timeline = [
-  { year: '1991', event: 'Associates of Applied Science in Physical Therapist Assisting — Beginning career as LPTA' },
+  { year: '1991', event: 'Earned degree and started practicing Physical Therapy — Beginning career as LPTA' },
   { year: '1995', event: 'Started practicing hippotherapy as a LPTA — Began 25+ year tenure in pediatric care' },
   { year: '2015', event: 'Pursued and earned AHCB Certification in Hippotherapy and PATH Certified Therapeutic Riding Instructor credentials' },
   { year: 'Today', event: 'Founding Pegasus Therapy — bringing a lifetime of pediatric and hippotherapy expertise to private practice' },
@@ -76,8 +76,8 @@ export default function About() {
                 {/* ── CONSOLIDATED BIO ── */}
                 <p>
                   Iris Melton is a Licensed Physical Therapist Assistant with over 30 years of experience 
-                  dedicated to improving the lives of children with special needs. She earned her Associate 
-                  of Applied Science in Physical Therapist Assisting in 1991, started practicing Hippotherapy in 1995, 
+                  dedicated to improving the lives of children with special needs. She earned her degree and
+                  started practicing Physical Therapy in 1991, started practicing Hippotherapy in 1995, 
                   and has specialized in pediatric patients since 1999 — building extraordinary 
                   clinical expertise working with children and families.
                 </p>

@@ -72,7 +72,7 @@ export default function Contact() {
                 <p className="label" style={{ marginBottom: '12px' }}>Credentials</p>
                 {[
                   'LPTA — Licensed Physical Therapist Assistant',
-                  'AHCB Certified Hippotherapy Clinical Specialist',
+                  'AHCB Hippotherapy Certified',
                   'PATH Certified Therapeutic Riding Instructor (CTRI)',
                   'NDT Trained — Pediatrics',
                   '30+ Years Clinical Experience',
