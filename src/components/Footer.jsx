@@ -28,7 +28,7 @@ export default function Footer() {
             </span>
           </Link>
           <p className="footer__tagline">
-            Dedicated to utilizing the movement of the horse to improve function, independence, and quality of life in special needs children.
+            Dedicated to utilizing hippotherapy to improve function, independence, and quality of life in special needs children.
           </p>
         </div>
         <div className="footer__nav">

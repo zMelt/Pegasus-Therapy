@@ -44,7 +44,7 @@ export default function Home() {
               <em>Takes Flight</em>
             </h1>
             <p className="hero__sub">
-              Pegasus Therapy is devoted to utilizing the movement of the horse to improve
+              Pegasus Therapy is devoted to utilizing hippotherapy to improve
               function, independence, and quality of life in special needs children.
             </p>
             <div className="hero__actions">

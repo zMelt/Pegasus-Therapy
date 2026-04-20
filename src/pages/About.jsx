@@ -2,7 +2,7 @@ import './About.css'
 
 const credentials = [
   { title: 'LPTA', desc: 'Licensed Physical Therapist Assistant' },
-  { title: 'AHCB', desc: 'American Hippotherapy Certification Board - Certified Therapist' },
+  { title: 'AHCB', desc: 'Hippotherapy Certified Therapist' },
   { title: 'PATH', desc: 'Certified Therapeutic Riding Instructor (CTRI)' },
   { title: 'NDT', desc: 'Neurodevelopmental Treatment Trained — Pediatrics' },
   { title: 'Bilingual', desc: 'Fluent in English and Spanish' },
@@ -82,7 +82,7 @@ export default function About() {
                   clinical expertise working with children and families.
                 </p>
                 <p>
-                  As an AHCB Certified Therapist and PATH Certified Therapeutic Riding Instructor (CTRI), 
+                  As an AHCB Hippotherapy Certified Therapist and PATH Certified Therapeutic Riding Instructor (CTRI), 
                   Iris uses the rhythmic, three-dimensional movement of the horse as a therapeutic tool to 
                   address neurological function, sensory processing, balance, and motor development. Her NDT 
                   (Neurodevelopmental Treatment) training in pediatrics equips her to work with children facing 
@@ -121,7 +121,7 @@ export default function About() {
                 <div className="supervising-pt__image-accent" />
               </div>
               <div className="supervising-pt__content">
-                <h3 className="supervising-pt__name">Michelle Hoemann, PT</h3>
+                <h3 className="supervising-pt__name">Michelle Hoemann, PT, DPT</h3>
                 <p className="supervising-pt__credentials">
                   Doctor of Physical Therapy | Early Childhood Specialist
                 </p>
