@@ -46,7 +46,7 @@ export default function Services() {
             </p>
             <p>
               Pegasus Therapy is dedicated to utilizing the movement of the horse to improve function,
-              independence, and quality of life in special needs children. Through hippotherapy and
+              independence, and quality of life in children with developmental delays or disabilities. Through hippotherapy and
               specialized pediatric physical therapy — Pegasus Therapys' aim is to empower children to 
               move, grow, and participate more fully in everyday life.
             </p>
@@ -160,7 +160,7 @@ export default function Services() {
           <div className="conditions__grid">
             {[
               'Cerebral Palsy',
-              'Spina Bifida',
+              'Genetic Disorders',
               'Autism Spectrum Disorder',
               'Sensory Processing Disorders',
               'Developmental Delays',
