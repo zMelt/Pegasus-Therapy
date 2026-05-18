@@ -57,7 +57,7 @@ export default function About() {
               {/* ── NEW PARAGRAPH (Keller, TX mission) ── */}
               <p className="bio__location-mission">
                 Located in Keller, Texas, Pegasus Therapy specializes in hippotherapy — using the healing 
-                movement of horses to help special needs children unlock their full potential. Our mission is simple: to help every child become the best they can be, 
+                movement of horses to help children with developmental delays or disabilities unlock their full potential. Our mission is simple: to help every child become the best they can be, 
                 improve their well-being, and achieve the best possible quality of life. Through the unique 
                 bond between horse and rider, we create a therapeutic experience that transforms challenges 
                 into milestones.
@@ -76,7 +76,7 @@ export default function About() {
                 {/* ── CONSOLIDATED BIO ── */}
                 <p>
                   Iris Melton is a Licensed Physical Therapist Assistant with over 30 years of experience 
-                  dedicated to improving the lives of children with special needs. She earned her degree and
+                  dedicated to improving the lives of children with developmental delays or disabilities. She earned her degree and
                   started practicing Physical Therapy in 1991, started practicing Hippotherapy in 1995, 
                   and has specialized in pediatric patients since 1999 — building extraordinary 
                   clinical expertise working with children and families.
