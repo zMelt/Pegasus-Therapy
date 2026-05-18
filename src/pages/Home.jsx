@@ -45,7 +45,7 @@ export default function Home() {
             </h1>
             <p className="hero__sub">
               Pegasus Therapy is devoted to utilizing hippotherapy to improve
-              function, independence, and quality of life in special needs children.
+              function, independence, and quality of life in children with developmental delays or disabilities.
             </p>
             <div className="hero__actions">
               <Link to="/services" className="btn-primary">Our Services</Link>
@@ -104,7 +104,7 @@ export default function Home() {
               <div className="intro__card intro__card--1">
                 <div className="intro__card-icon">🏇</div>
                 <h3>Hippotherapy</h3>
-                <p>Using the healing movement of horses as a therapeutic tool for special needs children</p>
+                <p>Using the healing movement of horses as a therapeutic tool for children with developmental delays or disabilities</p>
               </div>
               <div className="intro__card intro__card--2">
                 <div className="intro__card-icon">🤝</div>
