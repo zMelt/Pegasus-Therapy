@@ -17,7 +17,7 @@ const serviceTeaser = [
   {
     icon: '⬡',
     title: 'Pediatric Physical Therapy',
-    desc: 'NDT-trained, specialized therapy for special needs children — supporting developmental milestones, mobility, and participation in everyday activities.',
+    desc: 'NDT-trained, specialized therapy for children with developmental delays or disabilities — supporting developmental milestones, mobility, and participation in everyday activities.',
   },
   {
     icon: '⬡',
