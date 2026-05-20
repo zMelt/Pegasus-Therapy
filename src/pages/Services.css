@@ -2,6 +2,50 @@
 .services-intro__inner { max-width: 800px; border-left: 4px solid var(--red); padding-left: 28px; }
 .services-intro__inner p { font-size: 1.05rem; color: var(--gray-dark); line-height: 1.85; }
 
+/* Services intro with image */
+.services-intro__grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 60px;
+  align-items: start;
+}
+
+.services-intro__text {
+  border-left: 4px solid var(--red);
+  padding-left: 28px;
+}
+
+.services-intro__text p {
+  font-size: 1.05rem;
+  color: var(--gray-dark);
+  line-height: 1.85;
+  margin-bottom: 20px;
+}
+
+.services-intro__text p:last-child { margin-bottom: 0; }
+
+.services-intro__image {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.services-intro__img {
+  width: 260px;
+  height: 340px;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
+.services-intro__image-accent {
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  width: 40px;
+  height: 40px;
+  background: var(--red);
+}
+
 /* ── Two-column service sections ── */
 .svc-section { background: var(--white); }
 .svc-section--alt { background: var(--off-white); }
@@ -133,6 +177,8 @@
   .svc-section__grid { grid-template-columns: 1fr; gap: 40px; }
   .svc-section__grid--reversed .svc-section__details { order: 0; }
   .conditions__grid { grid-template-columns: repeat(2, 1fr); }
+  .services-intro__grid { grid-template-columns: 1fr; }
+  .services-intro__img { width: 100%; height: 240px; }
 }
 
 @media (max-width: 600px) {

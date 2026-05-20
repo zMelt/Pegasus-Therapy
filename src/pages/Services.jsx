@@ -37,19 +37,29 @@ export default function Services() {
       {/* ── Mission Intro ── */}
       <section className="services-intro section-pad">
         <div className="container">
-          <div className="services-intro__inner">
-            <p>
-              First, an evaluation is performed by a physical therapist to establish goals, then each 
-              session will be 45 minutes total. The session will consist of mount and dismount, 30 minutes
-              on the horse, and 15 minutes of therapeutic excersises and/on gate training. This training is
-              designed to carry over into daily living.
-            </p>
-            <p>
-              Pegasus Therapy is dedicated to utilizing the movement of the horse to improve function,
-              independence, and quality of life in children with developmental delays or disabilities. Through hippotherapy and
-              specialized pediatric physical therapy — Pegasus Therapys' aim is to empower children to 
-              move, grow, and participate more fully in everyday life.
-            </p>
+          <div className="services-intro__grid">
+            <div className="services-intro__text">
+              <p>
+                First, an evaluation is performed by a physical therapist to establish goals, then each 
+                session will be 45 minutes total. The session will consist of mount and dismount, 30 minutes
+                on the horse, and 15 minutes of therapeutic excersises and/on gate training. This training is
+                designed to carry over into daily living.
+              </p>
+              <p>
+                Pegasus Therapy is dedicated to utilizing the movement of the horse to improve function,
+                independence, and quality of life in children with developmental delays or disabilities. Through hippotherapy and
+                specialized pediatric physical therapy — Pegasus Therapys' aim is to empower children to 
+                move, grow, and participate more fully in everyday life.
+              </p>
+            </div>
+            <div className="services-intro__image">
+              <img 
+                src="/Iris.jpeg" 
+                alt="Iris Melton, LPTA - Founder of Pegasus Therapy" 
+                className="services-intro__img"
+              />
+              <div className="services-intro__image-accent" />
+            </div>
           </div>
         </div>
       </section>
