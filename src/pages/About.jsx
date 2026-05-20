@@ -35,9 +35,9 @@ export default function About() {
           <div className="bio__grid">
             <div className="bio__visual">
               <div className="bio__photo-frame">
-                {/* REPLACE PLACEHOLDER WITH ACTUAL IMAGE */}
+                {/* IMAGE */}
                 <img 
-                  src="/Iris.jpeg" 
+                  src="/Iris-bio.jpeg" 
                   alt="Iris Melton, LPTA - Founder of Pegasus Therapy" 
                   className="bio__photo"
                 />
