@@ -6,6 +6,7 @@ const forms = [
   { id: 'hippo-intake', title: 'Emergency Medical Treatment Form', desc: 'Authorization for Emergency Medical Treatment', file: '/forms/auth-for-med-treatment.pdf', tag: 'Hippotherapy' },
   { id: 'PT-RX', title: 'PT RX', desc: 'Physical Therapy Prescription', file: '/forms/PT-RX.pdf', tag: 'PT RX' },
   { id: 'hipaa', title: 'Rules and Regulations', desc: 'Policies and Procedures', file: '/forms/hipaa-authorization.pdf', tag: 'Required' },
+  { id: 'volunteer', title: 'Volunteer Registration Form', desc: 'Join the team!', file: '/forms/volunteer-registration-form.pdf', tag: 'Pegasus' },
 ]
 
 export default function Forms() {
