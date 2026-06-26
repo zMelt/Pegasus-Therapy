@@ -5,8 +5,9 @@ const forms = [
   { id: 'hippo-consent', title: 'Medical History and Consents Form', desc: 'Required for all hippotherapy patients. Covers history, safety protocols/risks, and patient consents.', file: '/forms/releases-physician.pdf', tag: 'Hippotherapy' },
   { id: 'hippo-intake', title: 'Emergency Medical Treatment Form', desc: 'Authorization for Emergency Medical Treatment', file: '/forms/auth-for-med-treatment.pdf', tag: 'Hippotherapy' },
   { id: 'PT-RX', title: 'PT RX', desc: 'Physical Therapy Prescription', file: '/forms/PT-RX.pdf', tag: 'PT RX' },
-  { id: 'hipaa', title: 'Rules and Regulations', desc: 'Policies and Procedures', file: '/forms/hipaa-authorization.pdf', tag: 'Required' },
   { id: 'volunteer', title: 'Volunteer Registration Form', desc: 'Join the team!', file: '/forms/volunteer-registration-form.pdf', tag: 'Pegasus' },
+  { id: 'rules-regs', title: 'Rules and Regulations', desc: 'Code of Conduct', file: '/forms/RULES-AND-REGULATIONS.pdf', tag: 'Required' },
+  { id: 'policies', title: 'Policies & Procedures', desc: 'Pegasus Policies and Payment Procedures', file: '/forms/Pegasus-Policies.pdf', tag: 'Disclosure' },
 ]
 
 export default function Forms() {
@@ -15,8 +16,8 @@ export default function Forms() {
       <section className="page-hero">
         <div className="page-hero__bg" />
         <div className="container page-hero__content">
-          <p className="label">New Patients</p>
-          <h1 className="page-hero__title">Patient Forms</h1>
+          <p className="label">Grow your wings</p>
+          <h1 className="page-hero__title">Pegasus Forms</h1>
           <div className="page-hero__line" />
         </div>
       </section>
@@ -56,7 +57,7 @@ export default function Forms() {
           <div style={{ marginBottom: '48px' }}>
             <p className="label">Available Downloads</p>
             <div className="divider-red" />
-            <h2 className="section-title">Patient Forms</h2>
+            <h2 className="section-title">Forms</h2>
             <p className="forms-list__note">Forms are available for download here. Please contact us with any other inquires and we'll get back to you promptly.</p>
           </div>
           <div className="forms-cards">
